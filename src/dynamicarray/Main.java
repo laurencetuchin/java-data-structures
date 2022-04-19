@@ -9,9 +9,9 @@ public class Main {
         dynamicArray.add("C");
 
         dynamicArray.insert(0,"X");
-        dynamicArray.delete("A");
-        dynamicArray.delete("B");
-        System.out.println(dynamicArray.search("C"));
+//        dynamicArray.delete("A");
+//        dynamicArray.delete("B");
+        System.out.println("found at position: " + dynamicArray.search("C"));
 
         System.out.println(dynamicArray);
         System.out.println("size: " + dynamicArray.size);
