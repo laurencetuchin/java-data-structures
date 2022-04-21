@@ -18,6 +18,9 @@ public class AdjacencyMatrix {
         graph.addEdge(4,2);
 
         graph.print();
+
+        System.out.println(graph.checkEdge(0,1));
+        System.out.println(graph.checkEdge(3,2));
     }
 
 
