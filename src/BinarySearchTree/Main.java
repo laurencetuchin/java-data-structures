@@ -12,6 +12,8 @@ public class Main {
         tree.insert(new Node(6));
         tree.insert(new Node(4));
 
+        tree.remove(1);
         tree.display();
+        System.out.println(tree.search(1));
     }
 }
