@@ -57,5 +57,14 @@ public class Book {
         return Objects.hash(name);
     }
 
+//    public int hashCode() {
+//        if(this.name ==null)
+//
+//    {
+//        return this.published;
+//    }
+//        return this.published +this.name.hashCode();
+//}
+
 
 }
